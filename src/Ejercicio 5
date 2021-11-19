@@ -13,7 +13,7 @@ CÓDIGOS DE RETORNO
 DESCRPCION_AYUDA
 }
 # si número de parámetros <= 0
-if test $# ­le 0 ; then
+if test $# -le 0 ; then
 echo "Hay que introducir al menos un parámetro."
 ayuda
 exit 1
