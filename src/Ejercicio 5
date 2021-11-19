@@ -1,3 +1,5 @@
+nano 05-hola-con-ayuda.sh
+#########################
 #! /bin/bash
 # función de ayuda
 function ayuda() {
@@ -31,3 +33,10 @@ shift
 done
 # mostramos la salida por pantalla
 echo $MENSAJE"!"
+
+###############################
+Hay que introducir al menos un parametro
+SYNOPSIS
+./05-hola-con-ayuda.sh NOMBRE_1, NOMBRE_2, ... NOMBRE_N!" por pantalla.
+CODIGOS DE RETORNO
+1 Si el número de párametros es menor que 1
