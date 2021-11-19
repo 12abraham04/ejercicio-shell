@@ -10,5 +10,9 @@ fi
 echo "Hola $@!"
 
 #####################################
+
+
+chmod 777 03-hola-al-menos-1-parametro.sh
+./03-hola-al-menos-1-parametro.sh
 numero de parametros = 0
 Hay que introducir al menos 1 parametro
