@@ -1,3 +1,5 @@
+nano 04-hola-parametros-separados.sh
+####################################
 #! /bin/bash
 # si número de parámetros menor o igual que 0
 if [ $# -le 0 ]; then
@@ -19,3 +21,6 @@ shift
 done
 # mostramos la salida por pantalla
 echo $MENSAJE"!"
+
+####################################
+Hay que introducir al menos 1 parametro
