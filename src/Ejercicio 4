@@ -23,4 +23,8 @@ done
 echo $MENSAJE"!"
 
 ####################################
+
+
+chmod 777 04-hola-parametros-separados.sh
+./04-hola-parametros-separados.sh
 Hay que introducir al menos 1 parametro
