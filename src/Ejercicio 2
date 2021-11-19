@@ -4,4 +4,8 @@ nano 02-hola-parametros.sh
 echo "Hola $@!"
 
 ##########################
+
+
+chmod 777 02-hola-parametros.sh
+./02-hola-parametros.sh
 hola !
