@@ -35,6 +35,10 @@ done
 echo $MENSAJE"!"
 
 ###############################
+
+
+chmod 777 05-hola-con-ayuda.sh
+./05-hola-con-ayuda.sh
 Hay que introducir al menos un parametro
 SYNOPSIS
 ./05-hola-con-ayuda.sh NOMBRE_1, NOMBRE_2, ... NOMBRE_N!" por pantalla.
